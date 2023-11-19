@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.head-section .container .head {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 40px 56px 110px
+}
+
+.head-section .container .head .btn {
+    font-family: 'Nunito';
+    font-size: 14px;
+    background: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.head-section .container .head .btns button:first-child {
+    color: #156963;
+}
+
+.head-section .container .head .btns button:last-child {
+    color: #fff;
+    background-color: #156963;
+    padding: 8px 30px;
+    margin-left: 20px;
+}
+
+.head-section .container .head i {
+    display: flex;
+    align-items: center;
+}
+
+.head-section {
+    display: flex;
+
+}
+
+.head-section .container .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-section .container .text-content .title {
+    width: 520px;
+    font-size: 68px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #156963;
+}
+
+.head-section .container .text-content .subtitle {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #2C1500;
+    opacity: 80%;
+    width: 493px;
+    line-height: 32px;
+    margin: 24px 0px 110px;
+}
+
+.head-section .container .head-last-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 77px;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.head-section .container .head-last-btns .btn p {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #333333;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.head-section .container .head-last-btns .btn .text {
+    color: #156963;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.head-section .container .head-last-btns .btn .text-two {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.head-section .container .head-last-btns .btn:last-child {
+    width: 320px;
+    height: 160px;
+    background: #156963;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+/* About styles */
+.about {
+    font-family: 'Montserrat';
+    margin-bottom: 85px;
+}
+
+.about .container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about .container .card {
+    width: 268px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+}
+
+.about .container .card .top-block {
+    display: flex;
+}
+
+.about .container .card .top-block img {
+    margin-right: 12px;
+}
+
+.about .container .card .top-block .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 137px;
+    font-size: 16px;
+    color: #156963;
+    font-weight: 700;
+}
+
+.about .container .card .subtitle {
+    width: 236px;
+    color: #2C1500;
+    font-size: 10px;
+    margin: 16px 16px 20px;
+}
+
+/* Price */
+.price .container {
+    font-family: 'Montserrat';
+    margin-bottom: 80px;
+}
+
+.price .container .top-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.price .container .top-block .title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price .container .top-block .select-op {
+    padding-left: 10px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #E0E0E0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.price .container .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price .container .content .content-block {
+    text-align: center;
+}
+
+.price .container .content .content-block .title {
+    margin: 16px 0px 9px;
+    font-size: 16px;
+}
+
+.price .container .content .content-block .price {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* About flowers part 2 */
+.about-two .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    margin-bottom: 80px;
+}
+.about-two .container .content-left {
+
+}
+.about-two .container .content-left .title {
+    width: 470px;
+    font-size: 40px;
+}
+
+.about-two .container .content-left .subtitle {
+    color: #2C1500;
+    font-size: 16px;
+    opacity: 80%;
+    width: 504px;
+    margin: 16px 0px 78px;
+}
+
+/* Shop styles */
+.shop .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    height: 360px;
+    background-image: url(images/shop-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.shop .container .title {
+    font-size: 40px;
+    width: 585px;
+    color: #2C1500;
+    margin-left: 90px;
+}
+.shop .container .btn {
+    margin-left: 90px;
+    background-color: #156963;
+    color: #FAFEFE;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    margin-top: 32px;
+    transition: 0.4s;
+}
+
+.shop .container .btn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #156963;
+    background-color: #FAFEFE;
+    border: 1px solid #156963;
+}
+
+/* Footer */
+.foot-child .container {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.foot-child .container .first-content .title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    color: #156963;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.foot-child .container .first-content .about {
+    font-size: 13px;
+    color: #4F4F4F;
+    font-family: 'Work Sans';
+    width: 282px;
+    margin-top: 11px;
+}
+
+.foot-child .container .sbtitle {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.foot-child .container .subtitle {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Work Sans';
+    margin-top: 20px;
+}
+
+.foot-child .container .last-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot-child .container .last-content .input {
+    margin: 30px 0px 14px;
+}
+
+.foot-child .container .last-content .btn {
+    background-color: #156963;
+    color: #fff;
+    font-size: 10px;
+    padding: 8px 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.foot-child .container .last-content .btn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #156963;
+    background-color: #FAFEFE;
+    border: 1px solid #156963;
+}
